@@ -9,7 +9,7 @@
         <!-- Indica la informacion adiccional que contiene la pagina -->
         <meta charset="UTF-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Esta pagina sirve mostrar listas desordenadas.">
+        <meta name="description" content="Esta pagina sirve mostrar listas desordenadas de juegos moviles.">
         <meta name="keywords" content="HTML, sitio web, pagina simple">
         <meta name="author" content="Alan Adrian Fernandez Soto">
 
@@ -23,27 +23,6 @@
             <!-- Etiquetas texto -->
             <h1>Listas Desordenadas</h1>
             <p>Esta es una página HTML simple que sirve para mostrar listas desordenadas.</p>
-            
-            <nav>
-                <p>Menu de Navegacion:</p>
-                <ul>
-                    <li><a href="../index.html">
-                        Inicio
-                    </a></li>
-                    <li><a href="ordenadas.html">
-                        Listas Ordenadas
-                    </a></li>
-                    <li><a href="desordenadas.html">
-                        Listas Desordenadas
-                    </a></li>
-                    <li><a href="tablas.html">
-                        Tablas
-                    </a></li>
-                    <li><a href="definiciones.html">
-                        Listas de Definiciones
-                    </a></li>
-                </ul>
-            </nav>
 
         </header> 
         <!-- Break, salto de linea -->
@@ -55,24 +34,42 @@
             <!-- Etiqueta para seccionar los elementos -->
             <section>
                 <!-- Crea lista no ordenada  -->
-                <ul id="gameList" >
+                <ul id="gameList" class="listaMain" type="A" >
                     <!-- Crea elemento de lista --> 
                     <li >
                         <!-- titulo del juego  -->
-                        <h3> Guardian Tales </h3>
+                        <h3 id="h3"> Guardian Tales </h3>
+                        <p>Esta encantadora aventura de rol y acción transporta a los jugadores al reino de Kanterbury, un mundo invadido por una fuerza enemiga misteriosa. Como un caballero recién reclutado, el jugador debe explorar calabozos llenos de desafiantes acertijos, luchar contra monstruos en tiempo real y reunir a un carismático equipo de héroes legendarios para salvar el mundo.</p>
+                        
+                        <p><strong id="strong"> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Acción RPG</li>
+                            <li>Aventura</li>
+                            <li>Puzles</li>
+                        </ul> <br>
+
                         <!-- Crear enlace-->
                         <a target="_blank" 
                             rel="noopener noreferrer" 
                             href="https://guardiantales.com/" 
                             > 
                         <!-- crear imagen -->
-                        <img src="https://guardiantales.com/images/mobile/img_appstore3.png" alt="GameImagen">  
+                        <img src="https://m.media-amazon.com/images/M/MV5BM2FjMTBlNGYtZjM2MC00ZGNjLWI4MTYtNjhiNzQ3ZTMzYzgxXkEyXkFqcGc@._V1_FMjpg_UY480_.jpg" alt="GameImagen">  
                         </a> <!-- Cierre de link -->
                         <!-- Cierre de lista -->
                     </li>
 
                     <li >
                         <h3> Guidus One </h3>
+                        <p>Este dinámico juego de aventuras en arte de píxeles desafía a los jugadores a adentrarse en peligrosas mazmorras que cambian en cada partida. Con un sistema de combate rápido en tiempo real, el jugador debe mover a su héroe casilla por casilla a través de laberintos repletos de monstruos y trampas ocultas, reaccionando rápidamente a los ataques enemigos mientras desbloquea personajes con habilidades únicas para avanzar en su misión.</p>
+                        
+                        <p><strong> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Acción RPG</li>
+                            <li>Roguelike</li>
+                            <li>Estrategia en tiempo real</li>
+                        </ul> <br>
+
                         <a target="_blank" 
                             rel="noopener noreferrer" 
                             href="https://play.google.com/store/apps/details?id=com.izzle.go&hl=es"
@@ -83,6 +80,15 @@
   
                     <li> 
                         <h3> Warframe </h3>
+                        <p>En este espectacular juego de acción en tercera persona, los jugadores controlan a los "Tenno", antiguos y poderosos guerreros espaciales que despiertan de un largo letargo. Equipados con trajes biomecánicos avanzados llamados Warframes, los jugadores viajan a través de un vasto sistema planetario futurista para combatir a distintas facciones enemigas, mejorar sus armas y cumplir misiones cooperativas en gigantescos mundos abiertos.</p>
+                        
+                        <p><strong> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Acción / Disparos</li>
+                            <li>Rol de acción (RPG)</li>
+                            <li>Multijugador Cooperativo</li>
+                        </ul> <br>
+
                         <a target="_blank" 
                             rel="noopener noreferrer" 
                             href="https://www.warframe.com/en"
@@ -94,6 +100,15 @@
 
                     <li> 
                         <h3> Dragon Ball Gekishin Squadra </h3>
+                        <p>Este vertiginoso juego de estrategia y combates en línea reúne a los héroes y villanos más famosos del universo Dragon Ball en dinámicas batallas de cuatro contra cuatro. Los jugadores forman equipos virtuales en tiempo real, eligen un rol estratégico —como atacar con ráfagas de energía, resistir golpes como un tanque o dar asistencia táctica— y coordinan ataques y espectaculares transformaciones para derrotar a los rivales y asegurar la victoria.</p>
+                        
+                        <p><strong> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Estrategia / MOBA</li>
+                            <li>Acción / Combate</li>
+                            <li>Multijugador en línea</li>
+                        </ul> <br>
+
                         <a target="_blank"
                             rel="noopener noreferrer"
                             href=" https://dbg-squadra.bn-ent.net/es " 
@@ -105,26 +120,53 @@
 
                     <li> 
                         <h3> Fire Emblem Heroes </h3>
+                        <p>En este juego de estrategia por turnos adaptado para pantallas táctiles, los jugadores asumen el rol de un invocador con el poder de traer a la vida a héroes legendarios de toda la saga Fire Emblem. El objetivo es librar batallas tácticas en tableros cuadriculados, moviendo a los personajes estratégicamente según sus armas y habilidades para derrotar al imperio enemigo y salvar el reino de Askr.</p>
+                        
+                        <p><strong> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Estrategia por turnos</li>
+                            <li>Rol táctico (RPG)</li>
+                            <li>Colección de personajes (Gacha)</li>
+                        </ul> <br>
+
                         <a target="_blank"
                             rel="noopener noreferrer"
                             href="https://fire-emblem-heroes.com/es/ " 
                             >
-                            <img src="https://www.pngkey.com/png/full/577-5771003_fire-emblem-heroes-title-logo.png" alt="GameImagen">
+                            <img src="https://nintendoeverything.com/wp-content/uploads/fire-emblem-heroes-656x369.jpg" alt="GameImagen">
                         </a> 
                     </li>
                     
                     <li>
                         <h3> Fire Emblem Shadows </h3> 
+                        <p>En este emocionante juego de estrategia y deducción social basado en el universo de Fire Emblem, los jugadores cooperan mientras intentan descubrir quiénes son los traidores infiltrados dentro de su propio ejército. Mientras avanzas en misiones tácticas grupales y gestionas recursos, debes usar la lógica, observar el comportamiento de tus compañeros y debatir en equipo para desenmascarar a los impostores antes de que saboteen la victoria.</p>
+                        
+                        <p><strong> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Estrategia / Deducción social</li>
+                            <li>Multijugador en línea</li>
+                            <li>Rol táctico (RPG)</li>
+                        </ul> <br>
+
                         <a target="_blank"
                             rel="noopener noreferrer"
                             href="https://play.google.com/store/apps/details?id=com.nintendo.zaha&hl=es_419 " 
                             >
-                            <img src="https://play-lh.googleusercontent.com/-nn34-g2zmHzDVGakTg7f9zBB2JwDXSdnne5MWmuhxg_ggq5_GZexUEii8UraRD2Ppyw02CCmFCpRl6K-wM9=s48-rw" alt="GameImagen">
+                            <img src="https://static.wikia.nocookie.net/fireemblem/images/f/fe/FE_Shadows_Icon.png/revision/latest?cb=20250925004633" alt="GameImagen">
                         </a> 
                     </li>
                     
                     <li> 
                         <h3> Elona Mobile </h3> 
+                        <p>Este es un extravagante y complejo simulador de vida y rol en un mundo abierto de fantasía, donde el jugador tiene total libertad para elegir su propio destino. Puedes convertirte en un valiente guerrero que explora mazmorras, un pacífico granjero, un exitoso comerciante o simplemente un ciudadano excéntrico, en un juego famoso por su alto nivel de personalización y sus situaciones impredecibles y absurdas.</p>
+                        
+                        <p><strong> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Rol de mundo abierto (Sandbox)</li>
+                            <li>Roguelike / Mazmorras</li>
+                            <li>Simulación de vida</li>
+                        </ul> <br>
+
                         <a  target="_blank"
                             rel="noopener noreferrer"
                             href="https://play.google.com/store/apps/details?id=com.ltgames.elona&hl=es" 
@@ -135,6 +177,15 @@
                     
                     <li> 
                         <h3> Alliance: Air War </h3>
+                        <p>Este es un emocionante e intenso simulador de vuelo y combate en tercera persona que pone a los jugadores directamente en la cabina de los aviones militares más icónicos de la historia. El juego permite pilotar y mejorar desde los clásicos cazas a hélice de la Segunda Guerra Mundial hasta los modernos jets supersónicos actuales, ofreciendo batallas aéreas cooperativas y enfrentamientos competitivos en línea contra otros jugadores en impresionantes cielos tridimensionales.</p>
+                        
+                        <p><strong> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Simulación de vuelo</li>
+                            <li>Acción / Combate aéreo</li>
+                            <li>Multijugador en línea</li>
+                        </ul> <br>
+
                         <a  target="_blank"
                             rel="noopener noreferrer"
                             href="https://play.google.com/store/apps/details/Alliance_Air_War?id=com.artofthestate.airwar&hl=es " 
@@ -145,6 +196,15 @@
                     
                     <li> 
                         <h3> Bside: Chat </h3> 
+                        <p>Este es un acogedor juego de simulación social y convivencia donde los jugadores diseñan y personalizan a una criatura virtual única llamada "BIIBIT". A través de divertidas conversaciones, mecánicas para compartir historias tipo novela visual y pequeñas aventuras diarias, tu compañero digital va desarrollando su propia personalidad, rutinas y recuerdos, permitiéndote además conectar con los personajes creados por otros jugadores.</p>
+                        
+                        <p><strong> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Simulador de vida</li>
+                            <li>Social / Chat interactivo</li>
+                            <li>Novela Visual / Rol</li>
+                        </ul> <br>
+
                         <a target="_blank"
                             rel="noopener noreferrer"
                             href="https://play.google.com/store/apps/details?id=com.kotoko.bside&hl=es_419 " 
@@ -155,11 +215,20 @@
 
                     <li> 
                         <h3> Compass: Combat Providence Analysis System </h3> 
+                        <p>Este es un vibrante juego de acción y estrategia multijugador en línea ambientado en un universo digital similar a una red social futurista. Los jugadores forman equipos de tres integrantes para competir en frenéticas batallas de corta duración, donde el objetivo principal es capturar y defender puntos de control en mapas tridimensionales combinando los ataques de héroes únicos con cartas de habilidades coleccionables.</p>
+                        
+                        <p><strong> Géneros: </strong>  </p>
+                        <ul> 
+                            <li>Estrategia / MOBA</li>
+                            <li>Acción en tiempo real</li>
+                            <li>Cartas coleccionables</li>
+                        </ul> <br>
+
                         <a target="_blank"
                             rel="noopener noreferrer"
                             href=" https://play.google.com/store/apps/details?id=com.nhnpa.cps " 
                             >
-                            <img src="https://play-lh.googleusercontent.com/v5z77yXfMu0GL0a9_kgFDbPRqtVCa4jlLGxoEApDZmxTDxceI81rdIywQse5ttmQQKMYkcqGeVx2oSk5HhEK4w=w240-h480-rw" alt="GameImagen">
+                            <img src="https://i.namu.wiki/i/_Byahb_zu8vvzdY_05V9JcPvcqR0L7St8XZ4OWEk160l9UXmD8TvQ6zsT_rk-tZUu76KwM6ZTt-X5pOXaerl0Ul-SY8XQZr4B_dXa8aIhzULV7MuS7XEQ2iKdS1B5CoQDagHo1QnyH8xQxtEVfvSBg.webp" alt="GameImagen">
                         </a> 
                     </li>
                     
@@ -171,10 +240,17 @@
 
         <!-- Etiqueta de sintaxis. Indica la parte inferior -->
         <footer>
-             <!-- INICIO -->
-            <a href="../index.html"> 
+            <!-- to Start -->
+            <a href=""> 
                 <!-- Etiqueta para añadir Imagen.  de vuelta al inicio -->
-                <img src="home.png" alt="Imagen vuelta al inicio" title="Volver al inicio" width="100">
+                <img id="toStart" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9cK87AIqzCl4vlcwoCwpQAZStbcrQ3e9ke_RSUjiGMA&s=10" alt="Volver arriba" title="Volver al inicio de esta pagina" >
+            </a> 
+            
+             <!-- INICIO -->
+            <a  id="home"
+                href="../index.html"> 
+                <!-- Etiqueta para añadir Imagen.  de vuelta al inicio -->
+                <img src="home.png" alt="Imagen vuelta al inicio" title="Volver al inicio" >
             </a> 
             
             <!-- CORREO -->
