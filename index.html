@@ -16,43 +16,52 @@
     </head>
 
     <!-- Indica la informacion que se le va a mostrar al usuario -->
-    <body>
+     <!-- Demostracion inline CSS -->
+    <body Style="background-color: rgb(26, 26, 26); color:  #fcf;"   >
         <!-- Etiqueta de sintaxis. Indica la parte superior -->
           
-        <header>
+        <header >
             <!-- Etiquetas texto -->
-            <h1>Bienvenido a Mi Sitio Web</h1>
-            <p>Esta es una página HTML simple que sirve para enlazar las otras paginas.</p>
-
+             <div id = "mensaje-bienvenida">
+                <h1>Bienvenido a Mi Sitio Web</h1>
+                <p>Esta es una página HTML simple que sirve para enlazar las otras paginas.</p>
+            </div>
         </header> 
         <!-- Break, salto de linea -->
         <br>
 
         <!-- Etiqueta de sintaxis. Indica la parte principal (la de en medio) -->
         <main>
-            <h2>Enlaces a otras páginas:</h2>
-            <!-- Crea lista no ordenada  -->
-            <ul>
-                <!-- Crea elemento de lista --> 
-                <li>
-                    <!-- Crear enlace-->
-                    <a href="web/ordenadas.html"> Listas Ordenada </a> 
-                </li>
+            <div id="navegacion">
+                <h2>Enlaces a otras páginas:</h2>
+                <!-- Crea lista no ordenada  -->
+                <ul>
+                    <!-- Crea elemento de lista --> 
+                    <div id="nav-ordenadas" class="nav-element">
+                        <li>
+                            <!-- Crear enlace-->
+                            <a href="web/ordenadas.html"> Listas Ordenada </a> 
+                        </li>
+                    </div>
 
-                <li> 
-                    <a href="web/desordenadas.html"> Listas Desordenada </a>
-                </li>
+                    <div id="nav-desordenadas" class="nav-element">
+                        <li> 
+                            <a href="web/desordenadas.html"> Listas Desordenada </a>
+                        </li>
+                    </div>
+                    <div id="nav-tablas" class="nav-element">  
+                        <li> 
+                            <a href="web/tablas.html"> Listas Tablas </a>
+                        </li>
+                    </div>
+                    <div id="nav-definiciones" class="nav-element">
+                        <li>
+                            <a href="web/definiciones.html">Lista de Definiciones</a>
+                        </li>
+                    </div>
 
-                <li> 
-                    <a href="web/tablas.html"> Listas Tablas </a>
-                </li>
-
-                <li>
-                    <a href="web/definiciones.html">Lista de Definiciones</a>
-                </li>
-
-            </ul>
-
+                </ul>
+            </div>
         </main>
 
         <!-- Etiqueta de sintaxis. Indica la parte inferior -->
