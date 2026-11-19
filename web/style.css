@@ -32,7 +32,8 @@ header{
 }
 
 footer{
-    
+    margin-top:100px;
+    justify-self: ;
     padding: 10px;
     background-color: #00000040;
     
