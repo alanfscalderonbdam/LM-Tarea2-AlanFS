@@ -1,28 +1,94 @@
+/* Importo una fuente personalizada que está dentro de la carpeta */
+@font-face {
+    /* el n */
+    font-family: 'Lobster';
+    /* le digo la direccion donde está */
+    src: url(Lobster.otf) format('opentype');
+    /* digo si la fuente es ancha o fina (bold) */
+    font-weight: normal;
+    /* cambiar el estilo (italic) */
+    font-style: normal;
+}
+
+
+
 body{
+    /* color de fondo */
     background-color :#fcf ;
+    /* tamaño dentro de la separacion de elementos que tiene dentro */
+    padding: 0px;
+    /* margen de lo que está fuera de él */
+    margin: 0px;
+    /* centralizar elementos */
+    align-items: center;
+    /* centralizarse él mismo */
+    align-self: center;
 }
-
-
-a:link {
-	color: orange ;
-    text-decoration: whitesmoke;
+/* cabecera dentro del body */
+header{
+    padding: 10px;
+    background-color: #00000040;
     
+}
+
+footer{
+    
+    padding: 10px;
+    background-color: #00000040;
+    
+}
+
+
+/* titulos */
+h1, h2 {
+    /* invoco la fuente ya creada anteriormente */
+    font-family: 'Lobster' ;
+    letter-spacing: 0.2rem ;
 
 }
-a:visited {
+
+h3, h4, h5, h6 {
+    /* le cambio el estilo a las demás fuentes(titulos) */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+main{
+    padding: 10px;
+    /* cambia el radio del borde */
+    border-radius: 10px;
+    /* genero una capa oscura transparente en frente del background anterior solo oscurenciendolo  */
+    background-color: #00000040  ;
+}
+
+/* dentro del id #card-navegacion, cambiar el enlace */
+#card-navegacion a:link {
+	/* color dentro de los enlaces */
+    color: orange ;
+    /* cambio la linea de los enlaces */
+    text-decoration: underline whitesmoke;
+    
+}
+/* color al que cambia cuando es clickeado */
+#card-navegacion a:visited {
 	color: orangered;
     
 }
-
-a:hover{
+/* enlace mientras el mouse está por encima */
+#card-navegacion a:hover{
+    /* color al que cambia */
     color: #ff5959;
+    /* hago que la genere una sombra creando efecto luminoso */
     text-shadow: 0px -3px 5px  yellow;
+    /* hago que el cambio del estilo sea en x tiewmpo */
     transition: all 0.2s;
 
 }
 
 div.card-navegacion{
-max-width: 0.5rem;
+    /* le digo el tamaño max de la carta */
+    max-width: 70%;
 
 }
 
